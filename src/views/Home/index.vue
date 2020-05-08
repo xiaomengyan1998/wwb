@@ -32,7 +32,7 @@ export default {
     justify-content: space-between;
     align-items: center;
     background: burlywood;
-    /* padding: 0 20px; */
+    padding: 0 10px;
     /* 头部用户图标 */
     .user-btn {
       width: 25px;
@@ -41,7 +41,7 @@ export default {
       background-size: 100%;
     }
     /* 头部logo图标 */
-    .header-logo{
+    .header-logo {
       width: 94px;
       height: 28px;
       background: url('../../assets/logo.png');
@@ -49,7 +49,7 @@ export default {
     }
 
     /* 头部搜索图标 */
-    .header-search{
+    .header-search {
       width: 25px;
       height: 25px;
       background: url('../../assets/icon/search.png');
