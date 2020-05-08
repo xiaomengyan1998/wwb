@@ -31,11 +31,11 @@ const router = new VueRouter({
     },
     { path: '/login', component: Login },
     { path: '/my', component: My },
-    { path: 'ranking', component: Ranking },
-    { path: 'register', component: Register },
-    { path: 'search', component: Search },
+    { path: '/ranking', component: Ranking },
+    { path: '/register', component: Register },
+    { path: '/search', component: Search },
     { path: '/search-result', component: SearchResult },
-    { path: 'vip', component: Vip },
+    { path: '/vip', component: Vip },
     { path: '/', redirect: '/home' }
   ]
 })
